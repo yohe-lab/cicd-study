@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: test-yohe
+  name: test-yohe
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test-yohe
+  template:
+    metadata:
+      labels:
+        app: test-yohe
+    spec:
+      containers:
+      - image: sitaramiyer/blue
+        name: blue
+        ports:
+        - containerPort: 80
