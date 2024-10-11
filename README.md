@@ -9,3 +9,4 @@
 - kubernetes(v1.31) by kubeadm
   - controleplane：1台
   - worker：1台
+- argocd (v2.12.3)
