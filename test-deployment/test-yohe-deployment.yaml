@@ -15,7 +15,7 @@ spec:
         app: test-yohe
     spec:
       containers:
-      - image: sitaramiyer/green
+      - image: sitaramiyer/blue
         name: blue
         ports:
         - containerPort: 80
